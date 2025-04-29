@@ -14,7 +14,8 @@ header {
 
 .header-image-container img {
     max-width: 100%; 
-    height: auto; 
+    height: auto;
+    border-radius: 5px; 
     display: inline-block; 
 }
 
