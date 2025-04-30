@@ -2,21 +2,26 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; 
+    background-color: #ae7aff; 
 }
 
 header {
-    background-color: #fff; 
+    background-color: #9465f3; 
     padding: 20px 0; 
     text-align: center; 
-    border-bottom: 1px solid #ccc; 
+    border-bottom: 1px solid #4626cf; 
 }
 
 .header-image-container img {
     max-width: 100%; 
-    height: auto;
-    border-radius: 5px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px; 
     display: inline-block; 
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
 }
 
 .container {
@@ -24,7 +29,8 @@ header {
     max-width: 1200px; 
     margin: 20px auto; 
     padding: 0 20px; 
-    gap: 20px; 
+    gap: 20px;
+    color: #ffffff; 
 }
 
 .content {
@@ -35,22 +41,30 @@ header {
     text-align: justify; 
     margin-bottom: 15px; 
     line-height: 1.6; 
+    color: #ffffff;
 }
 
 .sidebar {
     flex: 1; 
     display: flex; 
     flex-direction: column; 
-    align-items: flex-end; 
+    align-items: flex-end;
+    border-radius: 10px; 
 }
 
 .sidebar img {
-    max-width: 100%; 
+    max-width: 80%; 
     height: auto; 
     margin-bottom: 15px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #7a50e7; 
     padding: 5px; 
-    background-color: #fff; 
+    background-color: #603bdb; 
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.8;
+    transform: rotate(45deg);
 }
 
 @media (max-width: 768px) {
